@@ -7,7 +7,7 @@ import LoLChessCalculator from './elements/lol-chess/calculator.tsx';
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 const router = createBrowserRouter([
     {path: '/', element: <App/>},
-    {path: '/calculate/lol-chess', element: <LoLChessCalculator/>}
+    {path: '/lolchess/calculator', element: <LoLChessCalculator/>}
 ], {});
 
 root.render(
